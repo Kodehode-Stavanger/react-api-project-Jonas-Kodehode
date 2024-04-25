@@ -32,6 +32,7 @@ export default function CatSearch() {
                 navigate("/information");
             } catch (error) {
                 console.error("Error fetching data:", error);
+                navigate("/ErrorPage");
                 setResult(null);
             }
         }

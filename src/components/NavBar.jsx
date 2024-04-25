@@ -16,17 +16,17 @@ export default function NavBar() {
         >
             <div className="landingPage">
                 <Link to="/" className={styles.links}>
-                    Hjem
+                    Home
                 </Link>
             </div>
             <div className="catSearch">
                 <Link to="/catsearch" className={styles.links}>
-                    Søk etter katt
+                    Search
                 </Link>
             </div>
             <div className="about">
                 <Link to="/about" className={styles.links}>
-                    Om siden
+                    About
                 </Link>
             </div>
         </div>

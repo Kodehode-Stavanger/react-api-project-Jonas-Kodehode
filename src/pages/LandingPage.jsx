@@ -19,7 +19,7 @@ export default function LandingPage() {
     return (
         <div style={backgroundStyle}>
             <h1 style={{ marginLeft: "100px" }}>
-                Welcome to my cat searching website
+                Welcome to my cat race searching website
             </h1>
         </div>
     );

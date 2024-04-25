@@ -35,7 +35,7 @@ input {
     border: none;
     border-radius: 5px 0 0 5px;
     padding: 10px;
-    background-color: #f5e8d7;
+    background-color: #f8f2eb;
     font-family: "Roboto";
 }
 
@@ -44,7 +44,7 @@ button {
     border: none;
     border-radius: 0 5px 5px 0;
     padding: 10px;
-    background-color: #f5e8d7;
+    background-color: #f8f2eb;
     border-left: 4px black solid;
     font-family: "Roboto";
 }
