@@ -43,18 +43,20 @@ export default function CatSearch() {
             style={{ backgroundImage: `url(${catBackground})` }}
         >
             <div className={styles.info}>
-                <h1>Søk etter en katterase</h1>
+                <h1>Search for a race of cat</h1>
                 <div className={styles.inputContainer}>
                     <input
                         type="text"
-                        placeholder="Søk etter rase"
+                        placeholder="Search for a race"
                         value={input}
                         onChange={handleInput}
                     />
                     <button onClick={handleResult}>Search</button>
                 </div>
-                <h2>Finn ut om en katterase er riktig for deg.</h2>
-                <h2>Du må skrive det engelske navnet på rasen.</h2>
+                <h2 className={styles.topText}>
+                    Find out if a cat race is right for you.
+                </h2>
+                <h2>Scores are based on criteria, maxing at five.</h2>
             </div>
         </div>
     );

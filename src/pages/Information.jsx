@@ -19,6 +19,16 @@ export default function Information() {
                             <li>
                                 <p>Den kommer fra: {item.origin}</p>
                             </li>
+                            {item.image_link ? (
+                                <img
+                                    style={{
+                                        height: 300,
+                                        width: 300,
+                                        objectFit: "cover",
+                                    }}
+                                    src={item.image_link}
+                                />
+                            ) : null}
                             <li>
                                 <p>Familievennlighet: {item.family_friendly}</p>
                             </li>
