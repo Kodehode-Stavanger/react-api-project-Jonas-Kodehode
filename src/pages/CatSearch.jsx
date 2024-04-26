@@ -41,7 +41,9 @@ export default function CatSearch() {
     return (
         <div
             className={styles.background}
-            style={{ backgroundImage: `url(${catBackground})` }}
+            style={{
+                backgroundImage: `url("https://github.com/Kodehode-Stavanger/react-api-project-Jonas-Kodehode/blob/main/src/images/catBackground.jpg?raw=true")`,
+            }}
         >
             <div className={styles.info}>
                 <h1>Search for a race of cat</h1>

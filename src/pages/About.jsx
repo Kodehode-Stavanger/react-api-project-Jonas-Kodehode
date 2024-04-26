@@ -1,10 +1,10 @@
 export default function About() {
     const backgroundStyle = {
-        backgroundImage: `url("src/images/catBackground.jpg")`,
-        backgroundSize: "cover", // Ensure the background covers the full component
-        backgroundPosition: "center", // Center the background image
-        backgroundRepeat: "no-repeat", // Prevent the background from repeating
-        height: "100vh", // Set the height to full viewport height
+        backgroundImage: `url("https://github.com/Kodehode-Stavanger/react-api-project-Jonas-Kodehode/blob/main/src/images/catBackground.jpg?raw=true")`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        height: "100vh",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",

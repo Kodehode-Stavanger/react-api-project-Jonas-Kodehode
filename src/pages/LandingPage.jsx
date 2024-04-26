@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function LandingPage() {
     const backgroundStyle = {
-        backgroundImage: `url("src/images/catBackground.jpg")`,
+        backgroundImage: `url("https://github.com/Kodehode-Stavanger/react-api-project-Jonas-Kodehode/blob/main/src/images/catBackground.jpg?raw=true")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
