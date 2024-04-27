@@ -14,6 +14,7 @@ export default function CatSearch() {
         setInput(e.target.value);
     };
 
+    // Connecting to the api and getting result
     const handleResult = async () => {
         if (input) {
             const config = {
@@ -38,6 +39,7 @@ export default function CatSearch() {
         }
     };
 
+    // Layout of the search site
     return (
         <div
             className={styles.background}
