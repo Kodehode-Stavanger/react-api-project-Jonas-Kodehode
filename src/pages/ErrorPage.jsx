@@ -4,7 +4,6 @@ export default function ErrorPage() {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        height: "100vh",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",

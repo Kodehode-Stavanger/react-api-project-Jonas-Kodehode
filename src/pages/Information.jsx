@@ -8,7 +8,6 @@ export default function Information() {
         <div
             style={{
                 fontFamily: "Roboto",
-                height: "100vh",
                 backgroundColor: "black",
             }}
         >

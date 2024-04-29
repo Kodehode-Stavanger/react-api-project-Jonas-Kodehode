@@ -1,5 +1,4 @@
 import styles from "./CatSearch.module.css";
-import catBackground from "../images/catBackground.jpg";
 import axios from "axios";
 import { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
