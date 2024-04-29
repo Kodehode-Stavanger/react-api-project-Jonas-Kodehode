@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { useState, useContext } from "react";
+import { useState } from "react";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import CatSearch from "./pages/CatSearch";
 import About from "./pages/About";
@@ -43,7 +43,7 @@ const router = createBrowserRouter([
                 element: <CatSearch />,
             },
             {
-                path: "/information",
+                path: "/information/",
                 element: <Information />,
             },
             {

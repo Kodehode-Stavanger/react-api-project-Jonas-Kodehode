@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function LandingPage() {
     const backgroundStyle = {
-        backgroundImage: `url("https://github.com/Kodehode-Stavanger/react-api-project-Jonas-Kodehode/blob/main/src/images/catBackground.jpg?raw=true")`,
+        backgroundImage: `url("https://github.com/Jonas-Kodehode/Cat-race-search/blob/main/src/images/catBackground.jpg?raw=true")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -19,7 +19,7 @@ export default function LandingPage() {
     return (
         <div style={backgroundStyle}>
             <h1 style={{ marginLeft: "100px" }}>
-                Welcome to my cat race searching website
+                Welcome to my cat breed searching website
             </h1>
         </div>
     );

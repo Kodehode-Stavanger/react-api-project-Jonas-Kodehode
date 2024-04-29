@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { ResultContext } from "../main";
+import { useParams } from "react-router-dom";
 
 export default function Information() {
     const { result } = useContext(ResultContext);
@@ -13,9 +14,9 @@ export default function Information() {
         >
             {result && result.length > 0 ? (
                 <ul>
-                    {result.map((item, index) => (
+                    {result.map((item) => (
                         <div
-                            key={index}
+                            key={item.name}
                             style={{
                                 width: "100vw",
                                 fontSize: "2rem",

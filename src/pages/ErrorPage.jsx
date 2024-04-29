@@ -1,9 +1,10 @@
 export default function ErrorPage() {
     const backgroundStyle = {
-        backgroundImage: `url("src/images/cat404.jpg")`,
+        backgroundImage: `url("https://github.com/Jonas-Kodehode/Cat-race-search/blob/main/src/images/cat404.jpg?raw=true")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
+        height: "100vh",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",

@@ -1,6 +1,6 @@
 export default function About() {
     const backgroundStyle = {
-        backgroundImage: `url("https://github.com/Kodehode-Stavanger/react-api-project-Jonas-Kodehode/blob/main/src/images/catBackground.jpg?raw=true")`,
+        backgroundImage: `url("https://github.com/Jonas-Kodehode/Cat-race-search/blob/main/src/images/catBackground.jpg?raw=true")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -21,9 +21,9 @@ export default function About() {
                     marginLeft: "150px",
                 }}
             >
-                <h1>Welcome to CatRaceFinder!</h1>
+                <h1>Welcome to CatBreedFinder!</h1>
                 <p>
-                    CatRaceFinder is the go-to place to explore and learn about
+                    CatBreedFinder is the go-to place to explore and learn about
                     different cat breeds. Our website lets you find out if a
                     specific cat breed is right for you, making it easier to
                     choose the perfect companion. Made as a project for

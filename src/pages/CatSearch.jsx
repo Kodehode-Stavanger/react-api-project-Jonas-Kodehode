@@ -43,22 +43,22 @@ export default function CatSearch() {
         <div
             className={styles.background}
             style={{
-                backgroundImage: `url("https://github.com/Kodehode-Stavanger/react-api-project-Jonas-Kodehode/blob/main/src/images/catBackground.jpg?raw=true")`,
+                backgroundImage: `url("https://github.com/Jonas-Kodehode/Cat-race-search/blob/main/src/images/catBackground.jpg?raw=true")`,
             }}
         >
             <div className={styles.info}>
-                <h1>Search for a race of cat</h1>
+                <h1>Search for a breed of cat</h1>
                 <div className={styles.inputContainer}>
                     <input
                         type="text"
-                        placeholder="Search for a race"
+                        placeholder="Enter cat breed"
                         value={input}
                         onChange={handleInput}
                     />
                     <button onClick={handleResult}>Search</button>
                 </div>
                 <h2 className={styles.topText}>
-                    Find out if a cat race is right for you.
+                    Find out if a cat breed is right for you.
                 </h2>
                 <h2>Scores are based on criteria, maxing at five.</h2>
             </div>
