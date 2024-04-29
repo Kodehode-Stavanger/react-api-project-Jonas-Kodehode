@@ -43,7 +43,7 @@ export default function CatSearch() {
         <div
             className={styles.background}
             style={{
-                backgroundImage: `url("https://github.com/Jonas-Kodehode/Cat-race-search/blob/main/src/images/catBackground.jpg?raw=true")`,
+                backgroundImage: `url("https://github.com/Jonas-Kodehode/Cat-race-search/blob/main/src/assets/catBackground.jpg?raw=true")`,
             }}
         >
             <div className={styles.info}>

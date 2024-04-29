@@ -1,6 +1,6 @@
 export default function About() {
     const backgroundStyle = {
-        backgroundImage: `url("https://github.com/Jonas-Kodehode/Cat-race-search/blob/main/src/images/catBackground.jpg?raw=true")`,
+        backgroundImage: `url("https://github.com/Jonas-Kodehode/Cat-race-search/blob/main/src/assets/catBackground.jpg?raw=true")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
