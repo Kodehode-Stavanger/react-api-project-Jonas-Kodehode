@@ -43,7 +43,7 @@ const router = createBrowserRouter([
                 element: <CatSearch />,
             },
             {
-                path: "/information/",
+                path: "/information/:breedName",
                 element: <Information />,
             },
             {

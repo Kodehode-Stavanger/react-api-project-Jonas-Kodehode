@@ -29,7 +29,7 @@ export default function CatSearch() {
             try {
                 const response = await axios(config);
                 setResult(response.data);
-                navigate("/information");
+                navigate(`/information/${input}`);
             } catch (error) {
                 console.error("Error fetching data:", error);
                 navigate("/ErrorPage");

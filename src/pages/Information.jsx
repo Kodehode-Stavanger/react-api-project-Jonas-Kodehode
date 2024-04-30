@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { ResultContext } from "../main";
-import { useParams } from "react-router-dom";
 
 export default function Information() {
     const { result } = useContext(ResultContext);
@@ -10,69 +9,46 @@ export default function Information() {
             style={{
                 fontFamily: "Roboto",
                 backgroundColor: "black",
+                minHeight: "100vh",
             }}
         >
-            {result && result.length > 0 ? (
-                <ul>
-                    {result.map((item) => (
+            <ul>
+                {result && result.length > 0 ? (
+                    result.map((item) => (
                         <div
                             key={item.name}
                             style={{
-                                width: "100vw",
+                                minWidth: "100vw",
                                 fontSize: "2rem",
                                 display: "flex",
                                 flexDirection: "column",
                                 alignItems: "center",
                                 justifyContent: "center",
                                 color: "white",
+                                backgroundColor: "FFFFFF",
                             }}
                         >
                             <h1>All values have a max of 5</h1>
                             <li>
                                 <strong>{item.name}</strong>
                             </li>
+                            <li>Origin: {item.origin}</li>
+                            <li>Length: {item.length}</li>
                             <li>
-                                <p>Origin: {item.origin}</p>
+                                Weight: {item.min_weight} - {item.max_weight}{" "}
+                                lbs
                             </li>
                             <li>
-                                <p>Length: {item.length}</p>
+                                Life expectancy: {item.min_life_expectancy} -{" "}
+                                {item.max_life_expectancy} years
                             </li>
-                            <li>
-                                <p>
-                                    Weight from {item.min_weight} lbs to{" "}
-                                    {item.max_weight} lbs
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Life expectancy from{" "}
-                                    {item.min_life_expectancy} years to{" "}
-                                    {item.max_life_expectancy} years
-                                </p>
-                            </li>
-                            <li>
-                                <p>Shedding: {item.shedding}</p>
-                            </li>
-                            <li>
-                                <p>Grooming: {item.grooming}</p>
-                            </li>
-                            <li>
-                                <p>Playfulness: {item.playfulness}</p>
-                            </li>
-                            <li>
-                                <p>
-                                    Family-friendliness: {item.family_friendly}
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Children friendly: {item.children_friendly}
-                                </p>
-                            </li>
-                            <li>
-                                <p>Intelligence: {item.intelligence}</p>
-                            </li>
-                            {item.image_link ? (
+                            <li>Shedding: {item.shedding}</li>
+                            <li>Grooming: {item.grooming}</li>
+                            <li>Playfulness: {item.playfulness}</li>
+                            <li>Family-friendliness: {item.family_friendly}</li>
+                            <li>Children friendly: {item.children_friendly}</li>
+                            <li>Intelligence: {item.intelligence}</li>
+                            {item.image_link && (
                                 <img
                                     style={{
                                         height: 300,
@@ -82,13 +58,13 @@ export default function Information() {
                                     }}
                                     src={item.image_link}
                                 />
-                            ) : null}
+                            )}
                         </div>
-                    ))}
-                </ul>
-            ) : (
-                <p>No results found.</p>
-            )}
+                    ))
+                ) : (
+                    <p>No results found.</p>
+                )}
+            </ul>
         </div>
     );
 }
