@@ -1,3 +1,5 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/nEc54K2B)
+
 # React API project
 
 ### In this project you will be using React to create a project using an API for content.
@@ -12,6 +14,6 @@ Your project needs to meet the following criteria:
 - Use react-router-dom to set up routes. Use a dynamic route for the details page
 - Use a navigation bar that stays fixed throughout the site, on every route. (HINT, use 'children' routes)
 - Include error handling, and a loading message or loading animation using conditional rendering.
-- A well thought out component hierarchy, seperation of logic, with reusable components that utilize props.
+- A well thought out component hierarchy, separation of logic, with reusable components that utilize props.
 
 If anything is unclear, shoot me a message! Good luck!
